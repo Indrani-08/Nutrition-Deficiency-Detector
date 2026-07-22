@@ -1,0 +1,52 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# =====================
+# VS Code
+# =====================
+.vscode/
+
+# =====================
+# Python cache
+# =====================
+.pytest_cache/
+.ipynb_checkpoints/
+
+# =====================
+# Training outputs
+# =====================
+logs/
+tensorboard_logs/
+checkpoints/
+
+# =====================
+# Uploaded images
+# =====================
+Backend/uploads/*
+
+# Keep folder
+!Backend/uploads/.gitkeep
+
+# =====================
+# React
+# =====================
+Frontend/node_modules/
+Frontend/dist/
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
