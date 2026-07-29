@@ -12,7 +12,9 @@ import numpy as np
 from utils.model_loader import model, CLASS_NAMES
 from utils.preprocess import preprocess_image
 from utils.recommendations import RECOMMENDATIONS
+from dotenv import load_dotenv
 
+load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
@@ -21,9 +23,10 @@ CORS(app)
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_USE_TLS"] = True
-app.config["MAIL_USERNAME"] = "harshithaguru10@gmail.com"
-app.config["MAIL_PASSWORD"] = "zqew uzpy pvem llox"
-app.config["MAIL_DEFAULT_SENDER"] = "harshithaguru10@gmail.com"
+
+app.config["MAIL_USERNAME"] = os.environ.get("MAIL_USERNAME")
+app.config["MAIL_PASSWORD"] = os.environ.get("MAIL_PASSWORD")
+app.config["MAIL_DEFAULT_SENDER"] = os.environ.get("MAIL_USERNAME")
 
 mail = Mail(app)
 # Stores OTP temporarily

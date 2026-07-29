@@ -11,8 +11,10 @@ venv/
 env/
 
 # Environment variables
+# Environment variables / secrets
 .env
 *.env
+Backend/.env
 
 # =====================
 # IDE / Editor
