@@ -1,7 +1,14 @@
+import os
 import tensorflow as tf
 from tensorflow.keras.applications.efficientnet import preprocess_input
 
-MODEL_PATH = "model/final_nail_model.keras"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+MODEL_PATH = os.path.join(
+    BASE_DIR,
+    "model",
+    "v4_clean_efficientnetb3.keras"
+)
 
 CLASS_NAMES = [
     "healthy_nails",
@@ -10,6 +17,8 @@ CLASS_NAMES = [
     "vitamin_d_deficiency"
 ]
 
+print(f"Loading V4 model from: {MODEL_PATH}")
+
 model = tf.keras.models.load_model(
     MODEL_PATH,
     custom_objects={
@@ -17,4 +26,4 @@ model = tf.keras.models.load_model(
     }
 )
 
-print("✅ Model loaded successfully!")
+print("V4 EfficientNetB3 model loaded successfully!")

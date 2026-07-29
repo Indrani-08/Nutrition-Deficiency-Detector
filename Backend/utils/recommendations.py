@@ -43,7 +43,7 @@ RECOMMENDATIONS = {
         ],
 
         "doctor_advice":
-            "Continue maintaining a healthy lifestyle and balanced nutrition."
+            "Continue maintaining balanced nutrition and routine nail care. If you have persistent nail changes or other symptoms, consider consulting a healthcare professional."
     },
 
 
@@ -179,7 +179,7 @@ RECOMMENDATIONS = {
         ],
 
         "home_remedies": [
-            "Spend 15–20 minutes in early morning sunlight when appropriate.",
+            "Include safe, appropriate sunlight exposure as part of a healthy routine when suitable.",
             "Consume Vitamin D-rich foods regularly.",
             "Maintain adequate calcium intake."
         ],
