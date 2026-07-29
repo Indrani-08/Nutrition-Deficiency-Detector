@@ -1,6 +1,4 @@
 import os
-import tensorflow as tf
-from tensorflow.keras.applications.efficientnet import preprocess_input
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -17,13 +15,27 @@ CLASS_NAMES = [
     "vitamin_d_deficiency"
 ]
 
-print(f"Loading V4 model from: {MODEL_PATH}")
+_model = None
 
-model = tf.keras.models.load_model(
-    MODEL_PATH,
-    custom_objects={
-        "preprocess_input": preprocess_input
-    }
-)
 
-print("V4 EfficientNetB3 model loaded successfully!")
+def get_model():
+    global _model
+
+    if _model is None:
+        print(f"Loading V4 model from: {MODEL_PATH}")
+
+        # TensorFlow is imported only when prediction is requested
+        import tensorflow as tf
+        from tensorflow.keras.applications.efficientnet import preprocess_input
+
+        _model = tf.keras.models.load_model(
+            MODEL_PATH,
+            custom_objects={
+                "preprocess_input": preprocess_input
+            },
+            compile=False
+        )
+
+        print("V4 EfficientNetB3 model loaded successfully!")
+
+    return _model
