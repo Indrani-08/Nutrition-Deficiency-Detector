@@ -1,0 +1,128 @@
+NAIL DATASET QUALITY ANALYSIS
+======================================================================
+
+Total images analyzed: 730
+
+FLAG COUNTS
+----------------------------------------------------------------------
+BLURRY                    57
+OK                        568
+OVEREXPOSED               77
+VERY_BRIGHT               132
+
+DUPLICATE INFORMATION
+----------------------------------------------------------------------
+Exact duplicate groups: 12
+Images belonging to duplicate groups: 24
+
+PER-CLASS STATISTICS
+======================================================================
+
+TEST - healthy_nails
+----------------------------------------------------------------------
+Total images : 26
+Flagged      : 6
+Flagged %    : 23.08%
+Average blur score : 124.96
+Average brightness : 192.73
+Average contrast : 55.87
+
+TEST - iron_deficiency
+----------------------------------------------------------------------
+Total images : 25
+Flagged      : 4
+Flagged %    : 16.00%
+Average blur score : 217.89
+Average brightness : 166.38
+Average contrast : 68.58
+
+TEST - vitamin_b12_deficiency
+----------------------------------------------------------------------
+Total images : 30
+Flagged      : 5
+Flagged %    : 16.67%
+Average blur score : 128.87
+Average brightness : 184.96
+Average contrast : 56.83
+
+TEST - vitamin_d_deficiency
+----------------------------------------------------------------------
+Total images : 32
+Flagged      : 6
+Flagged %    : 18.75%
+Average blur score : 164.68
+Average brightness : 161.04
+Average contrast : 60.28
+
+TRAIN - healthy_nails
+----------------------------------------------------------------------
+Total images : 117
+Flagged      : 39
+Flagged %    : 33.33%
+Average blur score : 142.25
+Average brightness : 198.24
+Average contrast : 51.02
+
+TRAIN - iron_deficiency
+----------------------------------------------------------------------
+Total images : 113
+Flagged      : 18
+Flagged %    : 15.93%
+Average blur score : 190.92
+Average brightness : 174.42
+Average contrast : 64.23
+
+TRAIN - vitamin_b12_deficiency
+----------------------------------------------------------------------
+Total images : 137
+Flagged      : 35
+Flagged %    : 25.55%
+Average blur score : 150.16
+Average brightness : 190.08
+Average contrast : 54.48
+
+TRAIN - vitamin_d_deficiency
+----------------------------------------------------------------------
+Total images : 142
+Flagged      : 26
+Flagged %    : 18.31%
+Average blur score : 159.65
+Average brightness : 177.23
+Average contrast : 59.04
+
+VALIDATE - healthy_nails
+----------------------------------------------------------------------
+Total images : 25
+Flagged      : 7
+Flagged %    : 28.00%
+Average blur score : 151.23
+Average brightness : 196.92
+Average contrast : 49.07
+
+VALIDATE - iron_deficiency
+----------------------------------------------------------------------
+Total images : 24
+Flagged      : 4
+Flagged %    : 16.67%
+Average blur score : 185.01
+Average brightness : 167.17
+Average contrast : 66.73
+
+VALIDATE - vitamin_b12_deficiency
+----------------------------------------------------------------------
+Total images : 29
+Flagged      : 5
+Flagged %    : 17.24%
+Average blur score : 159.18
+Average brightness : 181.39
+Average contrast : 56.97
+
+VALIDATE - vitamin_d_deficiency
+----------------------------------------------------------------------
+Total images : 30
+Flagged      : 7
+Flagged %    : 23.33%
+Average blur score : 141.90
+Average brightness : 177.66
+Average contrast : 58.29
+

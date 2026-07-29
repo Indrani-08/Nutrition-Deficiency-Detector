@@ -1,0 +1,6 @@
+V2 EfficientNetB3 RESULTS
+========================================
+
+Test Loss: 0.5562
+Test Accuracy: 0.8230
+Test Accuracy Percentage: 82.30%

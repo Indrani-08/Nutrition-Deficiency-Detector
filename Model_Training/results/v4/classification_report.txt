@@ -1,0 +1,13 @@
+V4 CLEAN EFFICIENTNETB3
+======================================================================
+
+                        precision    recall  f1-score   support
+
+         healthy_nails     0.9600    0.9231    0.9412        26
+       iron_deficiency     0.8214    0.9200    0.8679        25
+vitamin_b12_deficiency     0.7692    0.6897    0.7273        29
+  vitamin_d_deficiency     0.8000    0.8276    0.8136        29
+
+              accuracy                         0.8349       109
+             macro avg     0.8377    0.8401    0.8375       109
+          weighted avg     0.8349    0.8349    0.8335       109

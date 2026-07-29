@@ -1,0 +1,10 @@
+                        precision    recall  f1-score   support
+
+         healthy_nails     1.0000    1.0000    1.0000        26
+       iron_deficiency     0.7273    0.9600    0.8276        25
+vitamin_b12_deficiency     0.7200    0.6000    0.6545        30
+  vitamin_d_deficiency     0.8276    0.7500    0.7869        32
+
+              accuracy                         0.8142       113
+             macro avg     0.8187    0.8275    0.8173       113
+          weighted avg     0.8165    0.8142    0.8098       113

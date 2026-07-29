@@ -1,0 +1,6 @@
+V3 EfficientNetB3 + CLAHE RESULTS
+==================================================
+
+Test Loss: 0.5944
+Test Accuracy: 0.8142
+Test Accuracy Percentage: 81.42%

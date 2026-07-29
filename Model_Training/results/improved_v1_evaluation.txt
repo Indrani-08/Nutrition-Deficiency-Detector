@@ -1,0 +1,6 @@
+IMPROVED MODEL V1
+========================================
+
+Test Loss: 0.6602
+Test Accuracy: 0.7434
+Test Accuracy Percentage: 74.34%

@@ -23,6 +23,30 @@ MODEL_DIR = os.path.join(BASE_DIR, "models")
 
 MODEL_PATH = os.path.join(MODEL_DIR, "best_model.keras")
 
+IMPROVED_MODEL_PATH = os.path.join(
+    MODEL_DIR,
+    "improved_model_v1.keras"
+)
+# ============================================
+# Improved V2 - EfficientNetB3
+# ============================================
+
+V2_IMAGE_SIZE = (300, 300)
+
+V2_MODEL_PATH = os.path.join(
+    MODEL_DIR,
+    "improved_model_v2_b3.keras"
+)
+# ============================================
+# V3 - EfficientNetB3 + CLAHE
+# ============================================
+
+V3_IMAGE_SIZE = (300, 300)
+
+V3_MODEL_PATH = os.path.join(
+    MODEL_DIR,
+    "improved_model_v3_b3_clahe.keras"
+)
 # ============================================
 # Results Path
 # ============================================
@@ -45,7 +69,7 @@ NUM_CLASSES = 4
 
 BATCH_SIZE = 16
 
-EPOCHS = 20
+EPOCHS = 40
 
 LEARNING_RATE = 0.0001
 

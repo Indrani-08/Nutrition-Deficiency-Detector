@@ -1,0 +1,30 @@
+NAIL DATASET CLEANUP SUMMARY
+======================================================================
+
+Original images: 730
+Duplicate groups: 12
+Conflicting duplicate groups: 12
+Images excluded due to duplicates: 24
+Images removed by quality filter: 7
+Final clean images: 699
+
+FINAL SPLIT COUNTS
+----------------------------------------------------------------------
+
+TRAIN
+healthy_nails: 117
+iron_deficiency: 111
+vitamin_b12_deficiency: 128
+vitamin_d_deficiency: 131
+
+VALIDATE
+healthy_nails: 25
+iron_deficiency: 23
+vitamin_b12_deficiency: 27
+vitamin_d_deficiency: 28
+
+TEST
+healthy_nails: 26
+iron_deficiency: 25
+vitamin_b12_deficiency: 29
+vitamin_d_deficiency: 29

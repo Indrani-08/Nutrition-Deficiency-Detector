@@ -1,0 +1,6 @@
+V4 CLEAN EFFICIENTNETB3
+==================================================
+
+Test Loss: 0.439914
+Test Accuracy: 0.834862
+Test Accuracy Percentage: 83.49%

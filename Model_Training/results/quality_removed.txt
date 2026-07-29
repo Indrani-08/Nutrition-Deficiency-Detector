@@ -1,0 +1,10 @@
+IMAGES REMOVED BY QUALITY FILTER
+======================================================================
+
+train / vitamin_b12_deficiency / aug_0_981.jpg -> EXTREMELY_OVEREXPOSED
+train / vitamin_d_deficiency / aug_0_1419.jpg -> EXTREMELY_BLURRY
+train / vitamin_d_deficiency / aug_0_211.jpg -> EXTREMELY_BLURRY
+train / vitamin_d_deficiency / aug_0_3596.jpg -> EXTREMELY_BLURRY
+validate / vitamin_d_deficiency / aug_0_6734.jpg -> EXTREMELY_BLURRY
+test / vitamin_d_deficiency / 000015.jpg -> EXTREMELY_BLURRY
+test / vitamin_d_deficiency / aug_0_2352.jpg -> EXTREMELY_BLURRY

@@ -1,0 +1,63 @@
+EXACT DUPLICATE IMAGE REPORT
+======================================================================
+
+Duplicate Group 1
+Hash: 2fc1b2216ce1b2ade4f91d0b77433749
+  train / iron_deficiency / 000008.jpg
+  train / vitamin_d_deficiency / 000047.jpg
+
+Duplicate Group 2
+Hash: a5cf3d8c0a837a9bed6e54e29ea6142a
+  train / iron_deficiency / 000014.png
+  train / vitamin_b12_deficiency / 000009.png
+
+Duplicate Group 3
+Hash: 6372a84ebc46f150e4485bb28a243c9f
+  train / vitamin_b12_deficiency / 000005.jpg
+  validate / vitamin_d_deficiency / 000002.jpg
+
+Duplicate Group 4
+Hash: 7a17dfd816e4fed86f668513ad77f80f
+  train / vitamin_b12_deficiency / 000006.jpg
+  validate / vitamin_d_deficiency / 000016.jpg
+
+Duplicate Group 5
+Hash: cc59883ffc58b67c0a3f6cc3788f3f7f
+  train / vitamin_b12_deficiency / 000016.jpg
+  train / vitamin_d_deficiency / 000008.jpg
+
+Duplicate Group 6
+Hash: 75e05c3b30512cbbdfb947de22b24e6c
+  train / vitamin_b12_deficiency / 000020.jpg
+  train / vitamin_d_deficiency / 000014.jpg
+
+Duplicate Group 7
+Hash: 0990e185a4b23d2ed2b7523ba1993db9
+  train / vitamin_b12_deficiency / 000022.jpg
+  train / vitamin_d_deficiency / 000029.jpg
+
+Duplicate Group 8
+Hash: a8e8b135ba1c35146d998281cd613895
+  train / vitamin_b12_deficiency / 000023.jpg
+  test / iron_deficiency / 000030.jpg
+
+Duplicate Group 9
+Hash: 205d104c24acb7416fdb3f9571146b4f
+  train / vitamin_b12_deficiency / 000027.png
+  test / vitamin_d_deficiency / 000031.png
+
+Duplicate Group 10
+Hash: 269ff6221815341a5d18339f8b2fdcc8
+  train / vitamin_b12_deficiency / 000041.jpg
+  train / vitamin_d_deficiency / 000032.jpg
+
+Duplicate Group 11
+Hash: 83c78b39b4f1329f38213b832d4f4fe8
+  train / vitamin_b12_deficiency / 000044.jpg
+  train / vitamin_d_deficiency / 000021.jpg
+
+Duplicate Group 12
+Hash: edbd59289e1b3cbd07363b53bd54b5a1
+  train / vitamin_d_deficiency / 000001.jpg
+  test / vitamin_b12_deficiency / 000003.jpg
+
