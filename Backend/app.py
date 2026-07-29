@@ -11,8 +11,6 @@ from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_cors import CORS
-from flask_sqlalchemy import SQLAlchemy
-from werkzeug.security import generate_password_hash, check_password_hash
 import os
 import numpy as np
 
@@ -695,10 +693,7 @@ def predict():
         "lifestyle": recommendation["lifestyle"],
         "doctor_advice": recommendation["doctor_advice"],
         "disclaimer": "This application provides an AI-assisted screening result based on fingernail images. It is intended for educational purposes only and should not be considered a medical diagnosis. Always consult a qualified healthcare professional for proper evaluation and treatment."
-        "disclaimer": "This application provides an AI-assisted screening result based on fingernail images. It is intended for educational purposes only and should not be considered a medical diagnosis. Always consult a qualified healthcare professional for proper evaluation and treatment."
     })
-
-
 
 # ---------------- RUN APP ---------------- #
 
