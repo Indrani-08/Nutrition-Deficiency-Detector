@@ -12,11 +12,13 @@ env/
 
 # Environment variables
 .env
+*.env
 
 # =====================
-# VS Code
+# IDE / Editor
 # =====================
 .vscode/
+.idea/
 
 # =====================
 # Python cache
@@ -32,18 +34,41 @@ tensorboard_logs/
 checkpoints/
 
 # =====================
-# Uploaded images
+# Backend
 # =====================
 Backend/uploads/*
 
-# Keep folder
+# Keep uploads directory
 !Backend/uploads/.gitkeep
 
 # =====================
-# React
+# Frontend / React
 # =====================
 Frontend/node_modules/
 Frontend/dist/
+
+# =====================
+# Model Training
+# =====================
+
+# Generated cleaned datasets
+Model_Training/dataset/clean/
+Model_Training/dataset/clean_master/
+
+# Intermediate models
+Model_Training/models/improved_model_v1.keras
+Model_Training/models/improved_model_v2_b3.keras
+Model_Training/models/improved_model_v3_b3_clahe.keras
+Model_Training/models/v4_best.keras
+Model_Training/models/v4_stage1.keras
+
+# NOTE:
+# Final model is intentionally NOT ignored:
+# Model_Training/models/v4_clean_efficientnetb3.keras
+
+# Temporary experiment outputs
+Model_Training/results/roi_tests/
+Model_Training/src/results/
 
 # =====================
 # OS
