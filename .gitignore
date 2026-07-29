@@ -1,30 +1,52 @@
+# =====================
 # Python
+# =====================
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+
+# Virtual environments
 venv/
 .venv/
+env/
 
-# Node
-node_modules/
-dist/
+# Environment variables
+.env
 
-# Datasets
-Model_Training/dataset/clean/
-Model_Training/dataset/clean_master/
+# =====================
+# VS Code
+# =====================
+.vscode/
 
-# Intermediate model checkpoints
-Model_Training/models/improved_model_v1.keras
-Model_Training/models/improved_model_v2_b3.keras
-Model_Training/models/improved_model_v3_b3_clahe.keras
-Model_Training/models/v4_best.keras
-Model_Training/models/v4_stage1.keras
+# =====================
+# Python cache
+# =====================
+.pytest_cache/
+.ipynb_checkpoints/
 
-# Temporary analysis output
-Model_Training/results/roi_tests/
-Model_Training/src/results/
+# =====================
+# Training outputs
+# =====================
+logs/
+tensorboard_logs/
+checkpoints/
 
-# OS / IDE
+# =====================
+# Uploaded images
+# =====================
+Backend/uploads/*
+
+# Keep folder
+!Backend/uploads/.gitkeep
+
+# =====================
+# React
+# =====================
+Frontend/node_modules/
+Frontend/dist/
+
+# =====================
+# OS
+# =====================
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/

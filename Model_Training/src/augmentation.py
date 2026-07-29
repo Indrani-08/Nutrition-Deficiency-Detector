@@ -15,18 +15,17 @@ AUGMENTED_DATASET = os.path.join(BASE_DIR, "dataset", "augmented")
 os.makedirs(AUGMENTED_DATASET, exist_ok=True)
 
 datagen = ImageDataGenerator(
-    rotation_range=15,
-    width_shift_range=0.08,
-    height_shift_range=0.08,
-    zoom_range=0.20,
+    rotation_range=20,
+    width_shift_range=0.10,
+    height_shift_range=0.10,
+    zoom_range=0.25,
     shear_range=0.10,
-    horizontal_flip=True,
-    brightness_range=[0.9, 1.1],
-    channel_shift_range=10,
+    brightness_range=[0.9, 1.15],
+    horizontal_flip=False,
     fill_mode="nearest"
 )
 
-AUGMENTATIONS_PER_IMAGE = 5
+AUGMENTATIONS_PER_IMAGE = 8
 
 print("\nStarting Data Augmentation...\n")
 
